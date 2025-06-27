@@ -108,7 +108,7 @@ const TodoItem = ({ todo, onToggle, onEdit, onDelete }) => {
               }`}
             >
               <Check className="w-4 h-4" />
-              {todo.done ? "Mark not done" : "Mark done"}
+              {todo.done ? "Undone" : "Mark as Done"}
             </button>
             {!todo.done && (
               <button
