@@ -1,0 +1,33 @@
+{
+  "name": "hiring-fullstack-todo",
+  "version": "1.0.0",
+  "description": "This exercise is intended to evaluate your understanding of full-stack development using your preferred stack.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizz-33/hiring-fullstack-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizz-33/hiring-fullstack-todo/issues"
+  },
+  "homepage": "https://github.com/Rizz-33/hiring-fullstack-todo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
